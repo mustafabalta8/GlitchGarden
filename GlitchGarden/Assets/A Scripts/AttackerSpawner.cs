@@ -59,6 +59,7 @@ public class AttackerSpawner : MonoBehaviour
 
         if (Time.timeSinceLevelLoad < StartOfFinalAttackWave && makeOneDecreaseOnMaxTime==false)
         {
+            minTime -= 0.5f;
             maxTime -= 3;
             Debug.Log(gameObject.name+"new max time: " + maxTime);
             Debug.Log("new max time: " + maxTime);
