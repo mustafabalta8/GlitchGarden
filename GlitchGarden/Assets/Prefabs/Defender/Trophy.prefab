@@ -232,7 +232,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Health: 80
-  Cost: 80
+  Cost: 70
 --- !u!61 &4078818710096253428
 BoxCollider2D:
   m_ObjectHideFlags: 0
